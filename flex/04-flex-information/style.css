@@ -6,6 +6,10 @@ img {
   width: 100px;
   height: 100px;
 }
+.items {
+  display: flex;
+  justify-content: center;
+}
 
 .title {
   font-size: 36px;
