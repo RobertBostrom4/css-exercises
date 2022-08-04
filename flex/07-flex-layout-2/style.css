@@ -37,3 +37,14 @@ padding-left: 16px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+.content {
+  display: flex;
+flex: 1 0 0;
+}
+
+.cards {
+  display: flex;
+  flex-flow: wrap;
+  flex:1
+}
