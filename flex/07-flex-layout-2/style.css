@@ -30,6 +30,7 @@ padding-left: 16px;
 .sidebar {
   width: 300px;
   background: royalblue;
+padding-left: 16px;
 }
 
 .card {
@@ -47,4 +48,15 @@ flex: 1 0 0;
   display: flex;
   flex-flow: wrap;
   flex:1
+}
+
+a {
+font-size: 24px;
+  color: white;
+text-decoration-line: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
 }
