@@ -17,15 +17,21 @@ body {
 
 .items {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: space-between;
   flex-flow: wrap;
+padding: 5px;
+flex: 0 10 auto; 
+row-gap: 10px;
 }
+
+
 
 .header {
 font-weight: bold;
-font-size: 24px;
+font-size: 20px;
 }
+
 
 .modal {
   background: white;
@@ -33,10 +39,10 @@ font-size: 24px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 10px;
+  display: flex;
 }
 
 .icon {
-  
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -44,7 +50,6 @@ font-size: 24px;
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  
   display: flex;
   align-items: center;
   justify-content: center;
